@@ -20,10 +20,13 @@
             <!-- Left Side Of Navbar -->
             <ul class="nav navbar-nav">
                 <li class="{{ active_class(if_route('topics.index')) }}"><a href="{{ route('topics.index') }}">话题</a></li>
-                <li class="{{ active_class((if_route('categories.show') && if_route_param('category', 1))) }}"><a href="{{ route('categories.show', 1) }}">离散数学</a></li>
-                <li class="{{ active_class((if_route('categories.show') && if_route_param('category', 2))) }}"><a href="{{ route('categories.show', 2) }}">数据结构</a></li>
-                <li class="{{ active_class((if_route('categories.show') && if_route_param('category', 3))) }}"><a href="{{ route('categories.show', 3) }}">线性代数</a></li>
+                <li class="{{ active_class((if_route('categories.show') && if_route_param('category', 1))) }}"><a href="{{ route('categories.show', 1) }}">线性代数</a></li>
+                <li class="{{ active_class((if_route('categories.show') && if_route_param('category', 2))) }}"><a href="{{ route('categories.show', 2) }}">离散数学</a></li>
+                <li class="{{ active_class((if_route('categories.show') && if_route_param('category', 3))) }}"><a href="{{ route('categories.show', 3) }}">数据结构</a></li>
                 <li class="{{ active_class((if_route('categories.show') && if_route_param('category', 4))) }}"><a href="{{ route('categories.show', 4) }}">计算机网络</a></li>
+                <li class="{{ active_class((if_route('categories.show') && if_route_param('category', 5))) }}"><a href="{{ route('categories.show', 5) }}">编程语言</a></li>
+                <li class="{{ active_class((if_route('categories.show') && if_route_param('category', 6))) }}"><a href="{{ route('categories.show', 6) }}">数据库</a></li>
+
             </ul>
 
             <!-- Right Side Of Navbar -->

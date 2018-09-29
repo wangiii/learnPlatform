@@ -7,11 +7,11 @@
 </div>
 <div class="panel panel-default">
     <div class="panel-body">
-        右边导航栏
+        华商天梯工作室
     </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-body">
-        右边导航栏3244343434
+        Yeah, why not
     </div>
 </div>
