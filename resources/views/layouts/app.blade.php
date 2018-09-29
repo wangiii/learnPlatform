@@ -9,6 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title', 'learnp') - 大学生学习交流平台</title>
+    <meta name="description" content="@yield('description', '大学生学习交流平台')" />
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
