@@ -7,7 +7,7 @@
 </div>
 <div class="panel panel-default">
     <div class="panel-body">
-        华商天梯工作室
+        华商天梯工作室 提供服务
     </div>
 </div>
 <div class="panel panel-default">
