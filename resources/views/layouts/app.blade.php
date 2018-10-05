@@ -8,8 +8,9 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'learnp') - 大学生学习交流平台</title>
-    <meta name="description" content="@yield('description', '大学生学习交流平台')" />
+    <title>@yield('title', 'learnp') - {{ setting('site_name', '大学生学习交流平台') }}</title>
+    <meta name="description" content="@yield('description', setting('seo_description', '大学生学习交流平台'))" />
+    <meta name="keyword" content="@yield('keyword', setting('seo_keyword', '大学生学习交流平台'))" />
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
