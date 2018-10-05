@@ -6,6 +6,12 @@
     </div>
 </div>
 
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="text-center">Yeah, why not</div>
+    </div>
+</div>
+
 @if (count($active_users))
     <div class="panel panel-default">
         <div class="panel-body active-users">
@@ -28,13 +34,26 @@
     </div>
 @endif
 
-<div class="panel panel-default">
-    <div class="panel-body">
-        华商天梯工作室 提供服务
+@if (count($links))
+    <div class="panel panel-default">
+        <div class="panel-body active-users">
+
+            <div class="text-center">资源推荐</div>
+            <hr>
+            @foreach ($links as $link)
+                <a class="media" href="{{ $link->link }}">
+                    <div class="media-body">
+                        <span class="media-heading">{{ $link->title }}</span>
+                    </div>
+                </a>
+            @endforeach
+
+        </div>
     </div>
-</div>
+@endif
+
 <div class="panel panel-default">
     <div class="panel-body">
-        Yeah, why not
+        <div class="text-center">华商山顶625工作室 提供服务</div>
     </div>
 </div>
