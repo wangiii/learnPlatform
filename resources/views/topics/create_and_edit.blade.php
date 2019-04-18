@@ -8,7 +8,7 @@
 
                 <div class="panel-body">
                     <h2 class="text-center">
-                        <i class="glyphicon glyphicon-edit"></i>
+                        <i class="glyphicon glyphicon-pencil"></i>
                         @if($topic->id)
                             编辑话题
                         @else
@@ -47,7 +47,7 @@
                             </div>
 
                             <div class="well well-sm">
-                                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> 保存</button>
+                                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> 发布</button>
                             </div>
                         </form>
                 </div>
