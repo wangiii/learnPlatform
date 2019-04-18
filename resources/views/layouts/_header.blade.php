@@ -12,7 +12,7 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ url('/') }}">
-                大学生学习交流平台
+                CS学习交流平台
             </a>
         </div>
 
